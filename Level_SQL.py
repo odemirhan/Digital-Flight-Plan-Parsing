@@ -24,11 +24,11 @@ for cntday in range(5):
     print(specdate)
     specplus= datetime.strftime((today - timedelta(days=cntday) + timedelta(days=1)), '%Y-%m-%d %H:%M:%S')
     print(specplus)
-    username='aerobytes_app'
-    pwd='aerobytes'
+    username='xxxx'
+    pwd='xxx'
     conn155=pyodbc.connect('Driver={SQL Server};'
-                              'Server=10.1.0.155;'
-                              'Database=fdm_v03_48;'
+                              'Server=xxx;'
+                              'Database=xxx;'
                               'UID='+username+';PWD='+pwd+';'
                               )
     
